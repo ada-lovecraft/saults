@@ -10,7 +10,7 @@ function doMultiples(e) {
 	var $multiplesDisplay = $('#multiples');
 	var $sumDisplay = $('#sum');
 	var total = 0;
-	for(var i = 1000; i>= 0;  i-- ) {
+	for(var i = 999; i>= 0;  i-- ) { //between 0 and 1000, not including 1000
 		if ( i % 3 == 0 || i % 5 == 0) {
 			$multiplesDisplay.append(' ' + i);
 			total += Number(i);
